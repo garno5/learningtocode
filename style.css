@@ -1,0 +1,51 @@
+body {
+  background: #f7f7f7;
+  font-family: 'Lato', sans-serif;
+}
+
+body > header > nav > ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+  color: black
+  
+}
+
+.workshop1 {
+  background-image: url(https://coding-days.com/wp-content/uploads/2017/01/BGJaune.png);
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  }
+
+.workshop1 > article > h1 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+.workshop1 > article > h2 {
+    font-size: 32px;
+}
+
+.workshop2 {
+  height: 40vh;
+  text-align: center;
+}
+
+.workshop2 > h2 {
+  color: #6b6b6b;
+  font-size: 32px;
+}
+
+.workshop2 > article {
+  width: 33%;
+  float: left;
+}
